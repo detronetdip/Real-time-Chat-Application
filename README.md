@@ -38,10 +38,12 @@ and click  ```Next```
 
 The chat UI will look like:
 
-![Screenshot](images/chatui.png)
+![Screenshot](image/chatui.png)
 
 on clicking the hamperbarg menu you can see the chat name and the unique code.
 
 untill chat is completed Admin should not close the tab otherwise he can't join the chat again the the chat will be saved in the database forever. Admin must close the chat by clicking Close button available on the hamperbarg menu.
+
+![Screenshot](image/chatuiextend.png)
 
 Except Admin everyone can leave the chat by clicking ```Leave``` available on the hamperbarg menu, and can join with the same username again as soon as room is available, if any use leave the chat by closing tab he or she can't join with the same username again.
