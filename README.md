@@ -7,4 +7,5 @@ Best part of this application is all your chats will be deleted from the databas
 
 
 Home screen: 
-![Screenshot](images/home.png)
+
+![Screenshot](image/home.png)
