@@ -14,12 +14,12 @@ First chat room should be created , head to ```start chat``` and you will see:
 
 ![Screenshot](image/jceyn.png)
 
-You have to enter your name, and you will be the ```Admin``` of this room. Just enter your name and hit ```Enter```
+You have to enter your name, and you will be the ```Admin``` of this room. Just enter your name and click ```Next```
 
 ![Screenshot](image/encn.png)
 
 Now you have to enter a chat name , it will be the room name.
-hit enter and you will get the ```uniqe code``` to share to everyone to join this chat.
+click ```Next``` and you will get the ```uniqe code``` to share to everyone to join this chat.
 
 ![Screenshot](image/cc.png)
 
@@ -34,7 +34,7 @@ click ```next```
 ![Screenshot](image/ecc.png)
 
 now you have to enter the chat code share by your friend,
-and hit ```enter```
+and click  ```Next```
 
 The chat UI will look like:
 
