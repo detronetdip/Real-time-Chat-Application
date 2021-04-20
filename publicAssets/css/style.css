@@ -136,7 +136,8 @@ body .mainboxsc {
           justify-content: center;
 }
 
-body .mainboxsc #chatnameA {
+body .mainboxsc #chatnameA,
+body .mainboxsc #namecontA {
   display: none;
 }
 
@@ -374,6 +375,13 @@ body .chatground .chatcontainer .messagearea {
   max-height: 35rem;
   padding: 10px;
   overflow-y: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #d6d6d6;
 }
 
