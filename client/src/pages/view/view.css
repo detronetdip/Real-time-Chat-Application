@@ -1,0 +1,198 @@
+.main {
+  height: calc(100vh - 8vh);
+  background-color: #232a3b;
+}
+.frontrow {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  width: 100%;
+}
+.frontrow .image {
+  height: 60vh;
+}
+.frontrow .image svg {
+  height: 100%;
+  width: 100%;
+}
+.right-front h4 {
+  color: #c8cfda;
+  font-size: 5rem;
+  font-weight: 300;
+}
+.right-front h1 {
+  color: #c8cfda;
+  font-size: 10rem;
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 1236px) {
+  .right-front h1 {
+    font-size: 9rem;
+  }
+  .frontrow .image {
+    height: 58vh;
+  }
+}
+@media only screen and (max-width: 1147px) {
+  .right-front h1 {
+    font-size: 8rem;
+  }
+  .frontrow .image {
+    height: 55vh;
+  }
+}
+@media only screen and (max-width: 1059px) {
+  .frontrow {
+    padding: 1rem 5rem;
+  }
+}
+@media only screen and (max-width: 1013px) {
+  .frontrow {
+    padding: 1rem 3rem;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .right-front h1 {
+    font-size: 6rem;
+  }
+  .frontrow .image {
+    height: 55vh;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .right-front h1 {
+    font-size: 6rem;
+  }
+  .frontrow .image {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .right-front h4 {
+    font-size: 3rem;
+  }
+  .right-front h1 {
+    font-size: 5rem;
+  }
+  .frontrow .image {
+    height: 48vh;
+  }
+}
+@media only screen and (max-width: 741px) {
+  .frontrow {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .right-front h4 {
+    font-size: 3rem;
+    margin-top: 8rem;
+  }
+  .right-front h1 {
+    font-size: 5rem;
+  }
+  .frontrow .image {
+    height: 48vh;
+  }
+}
+@media only screen and (max-width: 741px) {
+  .right-front h4 {
+    margin-top: 3rem;
+  }
+}
+.myhome {
+  height: calc(100vh - 8vh);
+  background-color: #232a3b;
+}
+.myhome .toprow {
+  display: flex;
+  padding: 1rem 5rem;
+  justify-content: center;
+  align-items: center;
+}
+.myhome .toprow .profile {
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: #313a55;
+  width: 100%;
+  max-width: 100rem;
+  color: #c8cfda;
+}
+.wrapperProfile {
+  padding: 1rem;
+  display: flex;
+}
+.profileImage {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: relative;
+}
+.profileImage img {
+  border-radius: 50%;
+}
+.profileImage .cover {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  display: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.profileImage:hover .cover {
+  display: initial;
+}
+.desc {
+  margin-left: 2.5rem;
+}
+.desc h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.desc h4 {
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+.cr {
+  position: inherit;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 525px) {
+  .myhome .toprow {
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .myhome .toprow {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 413px) {
+  .profileImage {
+    height: 10rem;
+    width: 10rem;
+  }
+  .desc h3 {
+    font-size: 1.5rem;
+  }
+  .desc h4 {
+    font-size: 1rem;
+  }
+}
+.adf {
+  border: none;
+  outline: none;
+  background-color: #2d88ff;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  display: flex;
+  margin-top: 1rem;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 5px;
+}

@@ -1,0 +1,41 @@
+.single-msgrow {
+  padding: 0.2rem 0;
+  display: flex;
+}
+.msg {
+  padding: 0.3rem 0.8rem;
+  max-width: 70%;
+  position: relative;
+}
+.msg .sendername {
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+.msg .text {
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  margin-bottom: 0.9rem;
+  word-wrap: break-word;
+}
+.msg .tm {
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: 100;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+  padding-left: auto;
+  display: flex;
+}
+.msg.my {
+  margin-left: auto;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 10px 0px 10px 10px;
+}
+.msg.nmy {
+  background-color: #3f4865;
+  color: #c8cfda;
+  border-radius: 0 10px 10px 10px;
+}

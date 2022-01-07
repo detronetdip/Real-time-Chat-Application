@@ -1,0 +1,34 @@
+.title {
+  height: 100%;
+  background-color: #232a3b;
+  padding: 0.5rem 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title img {
+  width: 4rem;
+}
+.top-left {
+  display: flex;
+}
+.top {
+  height: 8vh;
+  border-bottom: 1px solid #313a55;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: "Langar", cursive;
+  color: #2d88ff;
+  text-align: left;
+}
+.top-right button {
+  background-color: #2d88ff;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

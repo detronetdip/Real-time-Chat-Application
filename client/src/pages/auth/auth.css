@@ -1,0 +1,58 @@
+.loginmain{
+    height: calc(100vh - 8vh);
+    background-color: #232a3b;
+    display: grid;
+    place-items: center;
+}
+.loginmain .formcontainer{
+    max-width: 35rem;
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-color: #313a55;
+}
+.formcontainer form h4{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: #cfd5e0;
+}
+.formcontainer form input{
+    width: 100%;
+    padding: 0.9rem ;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #232a3b;
+    color: #cfd5e0;
+    margin: 0.7rem 0;
+}
+.formcontainer form button{
+    width: 100%;
+    padding: 0.9rem ;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background-color: #1c3fa9;
+    color: #cfd5e0;
+    margin: 0.7rem 0;
+    cursor: pointer;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choice{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choice span{
+    margin: 0.1rem 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #cfd5e0;
+}
+.choice a{
+    text-decoration: none;
+}

@@ -1,0 +1,41 @@
+.chatwrapper {
+  height: calc(100vh - 8vh - 7vh - 12vh);
+  padding: 1rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #313a55;
+}
+.chatwrapper::-webkit-scrollbar {
+  display: none;
+}
+.textfield {
+  height: 12vh;
+  display: flex;
+  background-color: #313a55;
+  border-top: 1px solid #3f4865;
+  align-items: center;
+  padding: 0 1rem;
+}
+.textfield input {
+    color: #b7becb;
+  width: 90%;
+  height: 4rem;
+  border-radius: 15px;
+  background-color: transparent;
+  padding: 0.9rem;
+  border: 1px solid #4987e6;
+  outline: none;
+}
+.textfield button {
+  margin-left: 0.8rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background-color: #007bff;
+}

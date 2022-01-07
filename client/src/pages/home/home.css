@@ -1,0 +1,103 @@
+.main {
+  height: calc(100vh - 8vh);
+  background-color: #232a3b;
+}
+.frontrow {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8rem;
+  width: 100%;
+}
+.frontrow .image {
+  height: 60vh;
+}
+.frontrow .image svg {
+  height: 100%;
+  width: 100%;
+}
+.right-front h4 {
+  color: #c8cfda;
+  font-size: 5rem;
+  font-weight: 300;
+}
+.right-front h1 {
+  color: #c8cfda;
+  font-size: 10rem;
+  text-transform: capitalize;
+}
+@media only screen and (max-width: 1236px) {
+  .right-front h1 {
+    font-size: 9rem;
+  }
+  .frontrow .image {
+    height: 58vh;
+  }
+}
+@media only screen and (max-width: 1147px) {
+  .right-front h1 {
+    font-size: 8rem;
+  }
+  .frontrow .image {
+    height: 55vh;
+  }
+}
+@media only screen and (max-width: 1059px) {
+  .frontrow {
+    padding: 1rem 5rem;
+  }
+}
+@media only screen and (max-width: 1013px) {
+  .frontrow {
+    padding: 1rem 3rem;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .right-front h1 {
+    font-size: 6rem;
+  }
+  .frontrow .image {
+    height: 55vh;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .right-front h1 {
+    font-size: 6rem;
+  }
+  .frontrow .image {
+    height: 50vh;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .right-front h4 {
+    font-size: 3rem;
+  }
+  .right-front h1 {
+    font-size: 5rem;
+  }
+  .frontrow .image {
+    height: 48vh;
+  }
+}
+@media only screen and (max-width: 741px) {
+  .frontrow {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .right-front h4 {
+    font-size: 3rem;
+    margin-top: 8rem;
+  }
+  .right-front h1 {
+    font-size: 5rem;
+  }
+  .frontrow .image {
+    height: 48vh;
+  }
+}
+@media only screen and (max-width: 741px) {
+  .right-front h4 {
+    margin-top: 3rem;
+  }
+}

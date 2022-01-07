@@ -1,0 +1,20 @@
+.headrow{
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.headrow:hover{
+    background-color: #313a55;
+}
+.headrow img{
+    height: 5rem;
+    width: 5rem;
+    margin-right: 0.8rem;
+}
+.headrow h4{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #d5d7dc;
+}

@@ -1,0 +1,20 @@
+.chatop{
+    display: flex;
+    align-items: center;
+}
+.chatop img{
+    height: 100%;
+    width: 3rem;
+}
+.chatop h4{
+    margin-left: 0.9rem;
+    font-size: 1.5rem;
+}
+.box{
+    display: none;
+}
+@media only screen and (max-width: 850px){
+    .box{
+        display: flex;
+    }
+  }
